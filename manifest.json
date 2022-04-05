@@ -1,0 +1,10 @@
+{
+  "name": "AdBlocker",
+  "description": "Y'a la bonne et la mauvaise description.",
+  "version": "1.0",
+  "permissions": ["background","webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+        "scripts": ["AdBlocker.js"]
+				},
+  "manifest_version": 2
+}
